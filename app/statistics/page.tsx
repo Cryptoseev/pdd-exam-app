@@ -98,13 +98,13 @@ export default function StatisticsPage() {
           <div className="text-center py-12">
             <div className="text-4xl mb-3">📊</div>
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              Статистика появится после первого экзамена
+              Нина Леонидовна, статистика появится после первого экзамена
             </p>
             <button
               onClick={() => router.push('/exam')}
               className="mt-4 px-6 py-3 bg-brand-blue text-white rounded-2xl font-semibold text-sm cursor-pointer"
             >
-              Начать экзамен
+              Начать первый экзамен
             </button>
           </div>
         )}
@@ -114,7 +114,7 @@ export default function StatisticsPage() {
           confirmClear ? (
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-4 border-2 border-brand-red">
               <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
-                Удалить всю статистику и историю?
+                Нина Леонидовна, удалить всю статистику и историю попыток?
               </p>
               <div className="flex gap-2">
                 <button

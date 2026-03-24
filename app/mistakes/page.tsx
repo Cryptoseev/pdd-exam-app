@@ -93,9 +93,9 @@ export default function MistakesPage() {
       {mistakeQuestions.length === 0 ? (
         <div className="flex-1 flex flex-col items-center justify-center px-5 gap-4 text-center">
           <div className="text-5xl">🎉</div>
-          <h2 className="text-xl font-bold text-gray-900 dark:text-white">Ошибок нет!</h2>
+          <h2 className="text-xl font-bold text-gray-900 dark:text-white">Нина Леонидовна, ошибок нет!</h2>
           <p className="text-sm text-gray-500 dark:text-gray-400 max-w-xs">
-            Пройдите экзамен или тренировку — здесь появятся вопросы, на которые вы ошибались
+            Отличный результат! Пройдите экзамен или тренировку — здесь появятся вопросы, в которых вы ошиблись
           </p>
           <button
             onClick={() => router.push('/')}
@@ -110,7 +110,7 @@ export default function MistakesPage() {
           <div className="bg-red-50 dark:bg-red-950/50 rounded-2xl p-4 border border-red-200 dark:border-red-800">
             <div className="text-3xl font-bold text-brand-red">{mistakeQuestions.length}</div>
             <div className="text-sm text-red-700 dark:text-red-300 font-medium mt-0.5">
-              вопросов с ошибками
+              вопросов, в которых Нина Леонидовна ошиблась
             </div>
           </div>
 
@@ -119,13 +119,13 @@ export default function MistakesPage() {
             onClick={() => setPracticing(true)}
             className="w-full py-4 bg-brand-blue text-white rounded-2xl font-semibold text-sm hover:bg-blue-700 transition-colors cursor-pointer"
           >
-            Тренироваться по ошибкам
+            Нина Леонидовна, потренироваться по ошибкам
           </button>
 
           {confirmClear ? (
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-4 border-2 border-brand-red">
               <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
-                Сбросить всю статистику и список ошибок?
+                Нина Леонидовна, сбросить всю статистику и список ошибок?
               </p>
               <div className="flex gap-2">
                 <button

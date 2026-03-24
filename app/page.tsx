@@ -63,7 +63,8 @@ export default function HomePage() {
           <span className="text-3xl">🚗</span>
           <h1 className="text-2xl font-bold">Экзамен ПДД</h1>
         </div>
-        <p className="text-blue-200 text-sm">Подготовка к экзамену ГИБДД России</p>
+        <p className="text-blue-100 text-sm font-medium">Добро пожаловать, Нина Леонидовна! 👋</p>
+        <p className="text-blue-200 text-xs mt-0.5">Подготовка к экзамену ГИБДД России</p>
 
         {stats.totalAttempts > 0 && (
           <div className="mt-4 bg-white/15 rounded-2xl px-4 py-3 grid grid-cols-3 gap-2">
@@ -79,6 +80,13 @@ export default function HomePage() {
               <div className="text-lg font-bold">{stats.mistakeCount}</div>
               <div className="text-blue-200 text-xs">ошибок</div>
             </div>
+          </div>
+        )}
+        {stats.totalAttempts === 0 && (
+          <div className="mt-3 bg-white/10 rounded-2xl px-4 py-2.5">
+            <p className="text-blue-100 text-xs leading-relaxed">
+              Нина Леонидовна, выберите режим ниже и начните подготовку! 🚦
+            </p>
           </div>
         )}
       </div>

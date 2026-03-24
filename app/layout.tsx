@@ -5,12 +5,12 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin', 'cyrillic'] });
 
 export const metadata: Metadata = {
-  title: 'Экзамен ПДД',
-  description: 'Подготовка к экзамену ПДД России — тренажёр билетов ГИБДД',
+  title: 'ПДД — Нина Леонидовна',
+  description: 'Тренажёр ПДД для Нины Леонидовны — подготовка к экзамену ГИБДД',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'ПДД',
+    title: 'ПДД — Нина Леонидовна',
   },
 };
 

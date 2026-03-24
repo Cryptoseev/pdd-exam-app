@@ -49,7 +49,7 @@ export default function ExamPage() {
   if (!session.currentQuestion) {
     return (
       <div className="flex items-center justify-center h-screen text-gray-400">
-        Загрузка вопросов…
+        Нина Леонидовна, загружаем вопросы…
       </div>
     );
   }
@@ -99,7 +99,7 @@ export default function ExamPage() {
         )}
         {!settings.showAnswerImmediately && !session.isAnswered && (
           <p className="text-center text-xs text-gray-400 dark:text-gray-500 mt-2">
-            Выберите ответ для перехода к следующему вопросу
+            Нина Леонидовна, выберите ответ для перехода к следующему вопросу
           </p>
         )}
       </div>

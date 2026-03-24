@@ -16,7 +16,7 @@ export default function ResultsPage() {
   if (!attempt) {
     return (
       <div className="flex items-center justify-center h-screen text-gray-400">
-        Нет данных о результате
+        Нина Леонидовна, данные о результате не найдены
       </div>
     );
   }
@@ -110,7 +110,7 @@ export default function ResultsPage() {
               onClick={() => router.push('/mistakes')}
               className="w-full py-4 rounded-2xl border-2 border-brand-red text-brand-red font-semibold text-sm hover:bg-red-50 dark:hover:bg-red-950 transition-colors cursor-pointer"
             >
-              Посмотреть ошибки ({wrongCount})
+              Нина Леонидовна, посмотреть ошибки ({wrongCount})
             </button>
           )}
           <button
@@ -123,7 +123,7 @@ export default function ResultsPage() {
             onClick={() => router.push('/')}
             className="w-full py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 font-semibold text-sm hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors cursor-pointer"
           >
-            Вернуться в меню
+            На главную, Нина Леонидовна
           </button>
         </div>
       </div>

@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Экзамен ПДД России',
+    name: 'ПДД — Нина Леонидовна',
     short_name: 'ПДД',
-    description: 'Тренажёр для подготовки к экзамену ГИБДД',
+    description: 'Тренажёр ПДД для Нины Леонидовны',
     start_url: '/',
     display: 'standalone',
     background_color: '#F9FAFB',

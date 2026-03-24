@@ -38,7 +38,7 @@ export default function RandomPage() {
         <div className="flex-1 flex flex-col items-center justify-center px-5 gap-8">
           <div className="text-center">
             <div className="text-5xl mb-3">🎲</div>
-            <h2 className="text-xl font-bold text-gray-900 dark:text-white">Сколько вопросов?</h2>
+            <h2 className="text-xl font-bold text-gray-900 dark:text-white">Нина Леонидовна, сколько вопросов?</h2>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
               Вопросы выбираются случайно из всех 40 билетов
             </p>
