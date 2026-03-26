@@ -44,13 +44,15 @@ export function QuestionCard({
           {question.question}
         </p>
         {question.image && (
-          <div className="mt-3 rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+          <div className="mt-3 rounded-xl overflow-hidden bg-white dark:bg-gray-900">
             <Image
               src={question.image}
               alt="Иллюстрация к вопросу"
-              width={560}
-              height={280}
-              className="w-full object-contain max-h-56"
+              width={480}
+              height={180}
+              sizes="(max-width: 640px) 100vw, 480px"
+              className="w-full h-auto"
+              priority={false}
             />
           </div>
         )}

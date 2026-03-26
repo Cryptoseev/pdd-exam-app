@@ -1,0 +1,1423 @@
+{
+  "categories": [
+    {
+      "id": "warning",
+      "name": "Предупреждающие знаки",
+      "count": 43,
+      "signs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.3.1",
+        "1.3.2",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8",
+        "1.9",
+        "1.10",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.14",
+        "1.15",
+        "1.16",
+        "1.17",
+        "1.18",
+        "1.19",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.21",
+        "1.22",
+        "1.23",
+        "1.23.1",
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29",
+        "1.30",
+        "1.31",
+        "1.32",
+        "1.33"
+      ]
+    },
+    {
+      "id": "priority",
+      "name": "Знаки приоритета",
+      "count": 9,
+      "signs": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.3.1",
+        "2.3.2",
+        "2.4",
+        "2.5",
+        "2.6",
+        "2.7"
+      ]
+    },
+    {
+      "id": "prohibitory",
+      "name": "Запрещающие знаки",
+      "count": 39,
+      "signs": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.6",
+        "3.7",
+        "3.8",
+        "3.9",
+        "3.10",
+        "3.11",
+        "3.12",
+        "3.13",
+        "3.14",
+        "3.15",
+        "3.16",
+        "3.17",
+        "3.17.1",
+        "3.17.2",
+        "3.17.3",
+        "3.18",
+        "3.18.1",
+        "3.18.2",
+        "3.19",
+        "3.20",
+        "3.21",
+        "3.22",
+        "3.23",
+        "3.24",
+        "3.25",
+        "3.26",
+        "3.27",
+        "3.28",
+        "3.29",
+        "3.30",
+        "3.31",
+        "3.32",
+        "3.33",
+        "3.37"
+      ]
+    },
+    {
+      "id": "mandatory",
+      "name": "Предписывающие знаки",
+      "count": 17,
+      "signs": [
+        "4.1",
+        "4.1.1",
+        "4.1.2",
+        "4.1.3",
+        "4.1.4",
+        "4.1.5",
+        "4.1.6",
+        "4.2",
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6",
+        "4.7",
+        "4.8"
+      ]
+    },
+    {
+      "id": "special",
+      "name": "Знаки особых предписаний",
+      "count": 43,
+      "signs": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.7.1",
+        "5.7.2",
+        "5.8",
+        "5.9",
+        "5.10",
+        "5.11",
+        "5.11.1",
+        "5.12",
+        "5.13",
+        "5.14",
+        "5.15",
+        "5.16",
+        "5.17",
+        "5.18",
+        "5.19",
+        "5.19.1",
+        "5.19.2",
+        "5.20",
+        "5.21",
+        "5.22",
+        "5.23",
+        "5.23.1",
+        "5.23.2",
+        "5.24",
+        "5.24.1",
+        "5.24.2",
+        "5.25",
+        "5.26",
+        "5.27",
+        "5.28",
+        "5.29",
+        "5.30",
+        "5.31",
+        "5.32",
+        "5.33",
+        "5.34"
+      ]
+    },
+    {
+      "id": "informational",
+      "name": "Информационные знаки",
+      "count": 16,
+      "signs": [
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "6.5",
+        "6.6",
+        "6.7",
+        "6.8",
+        "6.9",
+        "6.10",
+        "6.11",
+        "6.12",
+        "6.13",
+        "6.14",
+        "6.15",
+        "6.16"
+      ]
+    }
+  ],
+  "signs": {
+    "1.1": {
+      "code": "1.1",
+      "name": "Железнодорожный переезд со шлагбаумом",
+      "category": "warning",
+      "questionIds": [
+        "2-17",
+        "4-6",
+        "17-6",
+        "18-13",
+        "25-3",
+        "25-5",
+        "29-17",
+        "30-9",
+        "39-19"
+      ]
+    },
+    "1.2": {
+      "code": "1.2",
+      "name": "Железнодорожный переезд без шлагбаума",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.3": {
+      "code": "1.3",
+      "name": "Однопутная железная дорога",
+      "category": "warning",
+      "questionIds": [
+        "4-14",
+        "14-15",
+        "23-6",
+        "37-10"
+      ]
+    },
+    "1.3.1": {
+      "code": "1.3.1",
+      "name": "Однопутная железная дорога",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.3.2": {
+      "code": "1.3.2",
+      "name": "Многопутная железная дорога",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.4": {
+      "code": "1.4",
+      "name": "Приближение к железнодорожному переезду",
+      "category": "warning",
+      "questionIds": [
+        "9-13",
+        "19-16",
+        "27-19",
+        "31-18"
+      ]
+    },
+    "1.5": {
+      "code": "1.5",
+      "name": "Пересечение с трамвайной линией",
+      "category": "warning",
+      "questionIds": [
+        "4-17",
+        "9-3",
+        "17-2",
+        "19-3",
+        "24-7",
+        "25-9",
+        "29-5",
+        "37-15"
+      ]
+    },
+    "1.6": {
+      "code": "1.6",
+      "name": "Пересечение равнозначных дорог",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.7": {
+      "code": "1.7",
+      "name": "Пересечение с круговым движением",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.8": {
+      "code": "1.8",
+      "name": "Светофорное регулирование",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.9": {
+      "code": "1.9",
+      "name": "Разводной мост",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.10": {
+      "code": "1.10",
+      "name": "Выезд на набережную",
+      "category": "warning",
+      "questionIds": [
+        "3-13",
+        "16-7",
+        "23-10",
+        "33-19"
+      ]
+    },
+    "1.11": {
+      "code": "1.11",
+      "name": "Опасный поворот",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.11.1": {
+      "code": "1.11.1",
+      "name": "Опасный поворот направо",
+      "category": "warning",
+      "questionIds": [
+        "4-19",
+        "13-10",
+        "27-8",
+        "30-2"
+      ]
+    },
+    "1.11.2": {
+      "code": "1.11.2",
+      "name": "Опасный поворот налево",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.12": {
+      "code": "1.12",
+      "name": "Опасные повороты",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.12.1": {
+      "code": "1.12.1",
+      "name": "Опасные повороты (начало с правого)",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.12.2": {
+      "code": "1.12.2",
+      "name": "Опасные повороты (начало с левого)",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.13": {
+      "code": "1.13",
+      "name": "Крутой спуск",
+      "category": "warning",
+      "questionIds": [
+        "6-7",
+        "13-1",
+        "25-18",
+        "30-17"
+      ]
+    },
+    "1.14": {
+      "code": "1.14",
+      "name": "Крутой подъём",
+      "category": "warning",
+      "questionIds": [
+        "2-13",
+        "16-1",
+        "27-7",
+        "33-2"
+      ]
+    },
+    "1.15": {
+      "code": "1.15",
+      "name": "Скользкая дорога",
+      "category": "warning",
+      "questionIds": [
+        "9-7",
+        "12-3",
+        "27-6",
+        "37-6"
+      ]
+    },
+    "1.16": {
+      "code": "1.16",
+      "name": "Неровная дорога",
+      "category": "warning",
+      "questionIds": [
+        "8-11",
+        "18-3",
+        "25-15",
+        "36-17",
+        "39-16"
+      ]
+    },
+    "1.17": {
+      "code": "1.17",
+      "name": "Искусственная неровность",
+      "category": "warning",
+      "questionIds": [
+        "8-6",
+        "11-20",
+        "27-2",
+        "34-16"
+      ]
+    },
+    "1.18": {
+      "code": "1.18",
+      "name": "Выброс гравия",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.19": {
+      "code": "1.19",
+      "name": "Опасная обочина",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.20": {
+      "code": "1.20",
+      "name": "Сужение дороги",
+      "category": "warning",
+      "questionIds": [
+        "3-16",
+        "13-3",
+        "23-9",
+        "36-10"
+      ]
+    },
+    "1.20.1": {
+      "code": "1.20.1",
+      "name": "Сужение справа",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.20.2": {
+      "code": "1.20.2",
+      "name": "Сужение слева",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.20.3": {
+      "code": "1.20.3",
+      "name": "Сужение с обеих сторон",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.21": {
+      "code": "1.21",
+      "name": "Двустороннее движение",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.22": {
+      "code": "1.22",
+      "name": "Выезд на дорогу с односторонним движением",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.23": {
+      "code": "1.23",
+      "name": "Пешеходный переход",
+      "category": "warning",
+      "questionIds": [
+        "2-6",
+        "16-19",
+        "28-12",
+        "30-7",
+        "39-10"
+      ]
+    },
+    "1.23.1": {
+      "code": "1.23.1",
+      "name": "Дети",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.24": {
+      "code": "1.24",
+      "name": "Пересечение с велосипедной дорожкой",
+      "category": "warning",
+      "questionIds": [
+        "4-15",
+        "17-10",
+        "20-18",
+        "30-11"
+      ]
+    },
+    "1.25": {
+      "code": "1.25",
+      "name": "Дорожные работы",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.26": {
+      "code": "1.26",
+      "name": "Перегон скота",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.27": {
+      "code": "1.27",
+      "name": "Дикие животные",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.28": {
+      "code": "1.28",
+      "name": "Падение камней",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.29": {
+      "code": "1.29",
+      "name": "Боковой ветер",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.30": {
+      "code": "1.30",
+      "name": "Низколетящие самолёты",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.31": {
+      "code": "1.31",
+      "name": "Тоннель",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.32": {
+      "code": "1.32",
+      "name": "Затор",
+      "category": "warning",
+      "questionIds": []
+    },
+    "1.33": {
+      "code": "1.33",
+      "name": "Прочие опасности",
+      "category": "warning",
+      "questionIds": [
+        "5-4",
+        "15-7",
+        "22-1",
+        "30-8"
+      ]
+    },
+    "2.1": {
+      "code": "2.1",
+      "name": "Главная дорога",
+      "category": "priority",
+      "questionIds": [
+        "3-9",
+        "14-2",
+        "24-12",
+        "37-19"
+      ]
+    },
+    "2.2": {
+      "code": "2.2",
+      "name": "Конец главной дороги",
+      "category": "priority",
+      "questionIds": []
+    },
+    "2.3": {
+      "code": "2.3",
+      "name": "Пересечение с второстепенной дорогой",
+      "category": "priority",
+      "questionIds": []
+    },
+    "2.3.1": {
+      "code": "2.3.1",
+      "name": "Примыкание второстепенной дороги справа",
+      "category": "priority",
+      "questionIds": []
+    },
+    "2.3.2": {
+      "code": "2.3.2",
+      "name": "Примыкание второстепенной дороги слева",
+      "category": "priority",
+      "questionIds": []
+    },
+    "2.4": {
+      "code": "2.4",
+      "name": "Уступите дорогу",
+      "category": "priority",
+      "questionIds": [
+        "1-11",
+        "15-8",
+        "26-1",
+        "35-16",
+        "40-8"
+      ]
+    },
+    "2.5": {
+      "code": "2.5",
+      "name": "Движение без остановки запрещено",
+      "category": "priority",
+      "questionIds": [
+        "8-10",
+        "12-9",
+        "28-14",
+        "38-1"
+      ]
+    },
+    "2.6": {
+      "code": "2.6",
+      "name": "Преимущество встречного движения",
+      "category": "priority",
+      "questionIds": []
+    },
+    "2.7": {
+      "code": "2.7",
+      "name": "Преимущество перед встречным движением",
+      "category": "priority",
+      "questionIds": []
+    },
+    "3.1": {
+      "code": "3.1",
+      "name": "Въезд запрещён",
+      "category": "prohibitory",
+      "questionIds": [
+        "6-4",
+        "11-8",
+        "25-2",
+        "35-18",
+        "40-19"
+      ]
+    },
+    "3.2": {
+      "code": "3.2",
+      "name": "Движение запрещено",
+      "category": "prohibitory",
+      "questionIds": [
+        "6-13",
+        "10-11",
+        "20-17",
+        "35-13"
+      ]
+    },
+    "3.3": {
+      "code": "3.3",
+      "name": "Движение механических ТС запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.4": {
+      "code": "3.4",
+      "name": "Движение грузовых автомобилей запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.5": {
+      "code": "3.5",
+      "name": "Движение мотоциклов запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.6": {
+      "code": "3.6",
+      "name": "Движение тракторов запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.7": {
+      "code": "3.7",
+      "name": "Движение с прицепом запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.8": {
+      "code": "3.8",
+      "name": "Движение гужевых повозок запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.9": {
+      "code": "3.9",
+      "name": "Движение на велосипедах запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.10": {
+      "code": "3.10",
+      "name": "Движение пешеходов запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.11": {
+      "code": "3.11",
+      "name": "Ограничение массы",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.12": {
+      "code": "3.12",
+      "name": "Ограничение нагрузки на ось",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.13": {
+      "code": "3.13",
+      "name": "Ограничение высоты",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.14": {
+      "code": "3.14",
+      "name": "Ограничение ширины",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.15": {
+      "code": "3.15",
+      "name": "Ограничение длины",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.16": {
+      "code": "3.16",
+      "name": "Ограничение минимальной дистанции",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.17": {
+      "code": "3.17",
+      "name": "Таможня",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.17.1": {
+      "code": "3.17.1",
+      "name": "Таможня",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.17.2": {
+      "code": "3.17.2",
+      "name": "Опасность",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.17.3": {
+      "code": "3.17.3",
+      "name": "Контроль",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.18": {
+      "code": "3.18",
+      "name": "Поворот направо запрещён",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.18.1": {
+      "code": "3.18.1",
+      "name": "Поворот направо запрещён",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.18.2": {
+      "code": "3.18.2",
+      "name": "Поворот налево запрещён",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.19": {
+      "code": "3.19",
+      "name": "Разворот запрещён",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.20": {
+      "code": "3.20",
+      "name": "Обгон запрещён",
+      "category": "prohibitory",
+      "questionIds": [
+        "10-4",
+        "10-7",
+        "14-18",
+        "15-6",
+        "28-18",
+        "29-1",
+        "32-6",
+        "36-19",
+        "40-12"
+      ]
+    },
+    "3.21": {
+      "code": "3.21",
+      "name": "Конец зоны запрета обгона",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.22": {
+      "code": "3.22",
+      "name": "Обгон грузовым автомобилям запрещён",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.23": {
+      "code": "3.23",
+      "name": "Конец зоны запрета обгона для грузовых",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.24": {
+      "code": "3.24",
+      "name": "Ограничение максимальной скорости",
+      "category": "prohibitory",
+      "questionIds": [
+        "6-8",
+        "11-19",
+        "22-12",
+        "33-10"
+      ]
+    },
+    "3.25": {
+      "code": "3.25",
+      "name": "Конец зоны ограничения максимальной скорости",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.26": {
+      "code": "3.26",
+      "name": "Подача звукового сигнала запрещена",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.27": {
+      "code": "3.27",
+      "name": "Остановка запрещена",
+      "category": "prohibitory",
+      "questionIds": [
+        "9-8",
+        "15-15",
+        "22-16",
+        "29-18",
+        "39-14"
+      ]
+    },
+    "3.28": {
+      "code": "3.28",
+      "name": "Стоянка запрещена",
+      "category": "prohibitory",
+      "questionIds": [
+        "5-1",
+        "6-9",
+        "12-1",
+        "12-18",
+        "21-7",
+        "23-5",
+        "32-19",
+        "36-4",
+        "40-16"
+      ]
+    },
+    "3.29": {
+      "code": "3.29",
+      "name": "Стоянка запрещена по нечётным числам месяца",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.30": {
+      "code": "3.30",
+      "name": "Стоянка запрещена по чётным числам месяца",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.31": {
+      "code": "3.31",
+      "name": "Конец зоны всех ограничений",
+      "category": "prohibitory",
+      "questionIds": [
+        "1-2",
+        "13-5",
+        "24-18",
+        "33-7"
+      ]
+    },
+    "3.32": {
+      "code": "3.32",
+      "name": "Движение ТС с опасными грузами запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.33": {
+      "code": "3.33",
+      "name": "Движение ТС с взрывчатыми веществами запрещено",
+      "category": "prohibitory",
+      "questionIds": []
+    },
+    "3.37": {
+      "code": "3.37",
+      "name": "Движение мопедов запрещено",
+      "category": "prohibitory",
+      "questionIds": [
+        "2-19",
+        "12-4",
+        "22-9",
+        "31-6"
+      ]
+    },
+    "4.1": {
+      "code": "4.1",
+      "name": "Движение прямо",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.1.1": {
+      "code": "4.1.1",
+      "name": "Движение прямо",
+      "category": "mandatory",
+      "questionIds": [
+        "6-3",
+        "13-14",
+        "25-11",
+        "38-11"
+      ]
+    },
+    "4.1.2": {
+      "code": "4.1.2",
+      "name": "Движение направо",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.1.3": {
+      "code": "4.1.3",
+      "name": "Движение налево",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.1.4": {
+      "code": "4.1.4",
+      "name": "Движение прямо или направо",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.1.5": {
+      "code": "4.1.5",
+      "name": "Движение прямо или налево",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.1.6": {
+      "code": "4.1.6",
+      "name": "Движение направо или налево",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.2": {
+      "code": "4.2",
+      "name": "Объезд препятствия",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.2.1": {
+      "code": "4.2.1",
+      "name": "Объезд препятствия справа",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.2.2": {
+      "code": "4.2.2",
+      "name": "Объезд препятствия слева",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.2.3": {
+      "code": "4.2.3",
+      "name": "Объезд препятствия справа или слева",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.3": {
+      "code": "4.3",
+      "name": "Круговое движение",
+      "category": "mandatory",
+      "questionIds": [
+        "1-1",
+        "17-13",
+        "26-19",
+        "33-11"
+      ]
+    },
+    "4.4": {
+      "code": "4.4",
+      "name": "Велосипедная дорожка",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.5": {
+      "code": "4.5",
+      "name": "Пешеходная дорожка",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.6": {
+      "code": "4.6",
+      "name": "Ограничение минимальной скорости",
+      "category": "mandatory",
+      "questionIds": [
+        "1-7",
+        "10-13",
+        "23-4",
+        "30-14"
+      ]
+    },
+    "4.7": {
+      "code": "4.7",
+      "name": "Конец зоны ограничения минимальной скорости",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "4.8": {
+      "code": "4.8",
+      "name": "Направление движения ТС с опасными грузами",
+      "category": "mandatory",
+      "questionIds": []
+    },
+    "5.1": {
+      "code": "5.1",
+      "name": "Автомагистраль",
+      "category": "special",
+      "questionIds": [
+        "8-4",
+        "13-6",
+        "25-16",
+        "29-16"
+      ]
+    },
+    "5.2": {
+      "code": "5.2",
+      "name": "Конец автомагистрали",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.3": {
+      "code": "5.3",
+      "name": "Дорога для автомобилей",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.4": {
+      "code": "5.4",
+      "name": "Конец дороги для автомобилей",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.5": {
+      "code": "5.5",
+      "name": "Дорога с односторонним движением",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.6": {
+      "code": "5.6",
+      "name": "Конец дороги с односторонним движением",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.7": {
+      "code": "5.7",
+      "name": "Выезд на дорогу с односторонним движением",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.7.1": {
+      "code": "5.7.1",
+      "name": "Выезд на дорогу справа",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.7.2": {
+      "code": "5.7.2",
+      "name": "Выезд на дорогу слева",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.8": {
+      "code": "5.8",
+      "name": "Реверсивное движение",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.9": {
+      "code": "5.9",
+      "name": "Конец реверсивного движения",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.10": {
+      "code": "5.10",
+      "name": "Выезд на дорогу с реверсивным движением",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.11": {
+      "code": "5.11",
+      "name": "Дорога с полосой для маршрутных ТС",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.11.1": {
+      "code": "5.11.1",
+      "name": "Дорога с полосой для маршрутных ТС",
+      "category": "special",
+      "questionIds": [
+        "10-6",
+        "12-12",
+        "27-5",
+        "31-8"
+      ]
+    },
+    "5.12": {
+      "code": "5.12",
+      "name": "Конец дороги с полосой для маршрутных ТС",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.13": {
+      "code": "5.13",
+      "name": "Выезд на дорогу с полосой для маршрутных ТС",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.14": {
+      "code": "5.14",
+      "name": "Полоса для маршрутных ТС",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.15": {
+      "code": "5.15",
+      "name": "Направления движения по полосам",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.16": {
+      "code": "5.16",
+      "name": "Начало полосы",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.17": {
+      "code": "5.17",
+      "name": "Конец полосы",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.18": {
+      "code": "5.18",
+      "name": "Направление движения по полосе",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.19": {
+      "code": "5.19",
+      "name": "Пешеходный переход",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.19.1": {
+      "code": "5.19.1",
+      "name": "Пешеходный переход (правая сторона)",
+      "category": "special",
+      "questionIds": [
+        "9-20",
+        "18-2",
+        "20-4",
+        "31-5",
+        "39-5"
+      ]
+    },
+    "5.19.2": {
+      "code": "5.19.2",
+      "name": "Пешеходный переход (левая сторона)",
+      "category": "special",
+      "questionIds": [
+        "9-20",
+        "18-2",
+        "20-4",
+        "31-5",
+        "39-5"
+      ]
+    },
+    "5.20": {
+      "code": "5.20",
+      "name": "Искусственная неровность",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.21": {
+      "code": "5.21",
+      "name": "Жилая зона",
+      "category": "special",
+      "questionIds": [
+        "9-6",
+        "19-15",
+        "20-16",
+        "35-11"
+      ]
+    },
+    "5.22": {
+      "code": "5.22",
+      "name": "Конец жилой зоны",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.23": {
+      "code": "5.23",
+      "name": "Начало населённого пункта",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.23.1": {
+      "code": "5.23.1",
+      "name": "Начало населённого пункта",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.23.2": {
+      "code": "5.23.2",
+      "name": "Начало населённого пункта (на синем фоне)",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.24": {
+      "code": "5.24",
+      "name": "Конец населённого пункта",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.24.1": {
+      "code": "5.24.1",
+      "name": "Конец населённого пункта",
+      "category": "special",
+      "questionIds": [
+        "5-19",
+        "14-17",
+        "23-11",
+        "35-5"
+      ]
+    },
+    "5.24.2": {
+      "code": "5.24.2",
+      "name": "Конец населённого пункта (на синем фоне)",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.25": {
+      "code": "5.25",
+      "name": "Начало населённого пункта (без ограничений)",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.26": {
+      "code": "5.26",
+      "name": "Конец населённого пункта (без ограничений)",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.27": {
+      "code": "5.27",
+      "name": "Зона с ограниченной стоянкой",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.28": {
+      "code": "5.28",
+      "name": "Конец зоны с ограниченной стоянкой",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.29": {
+      "code": "5.29",
+      "name": "Пешеходная зона",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.30": {
+      "code": "5.30",
+      "name": "Конец пешеходной зоны",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.31": {
+      "code": "5.31",
+      "name": "Зона с ограничением скорости",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.32": {
+      "code": "5.32",
+      "name": "Конец зоны с ограничением скорости",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.33": {
+      "code": "5.33",
+      "name": "Пешеходная и велосипедная дорожка",
+      "category": "special",
+      "questionIds": []
+    },
+    "5.34": {
+      "code": "5.34",
+      "name": "Конец пешеходной и велосипедной дорожки",
+      "category": "special",
+      "questionIds": []
+    },
+    "6.1": {
+      "code": "6.1",
+      "name": "Ограничение скорости (рекомендуемая)",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.2": {
+      "code": "6.2",
+      "name": "Рекомендуемая скорость",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.3": {
+      "code": "6.3",
+      "name": "Место для разворота",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.4": {
+      "code": "6.4",
+      "name": "Место стоянки",
+      "category": "informational",
+      "questionIds": [
+        "3-1",
+        "18-19",
+        "26-12",
+        "36-6"
+      ]
+    },
+    "6.5": {
+      "code": "6.5",
+      "name": "Полоса аварийной остановки",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.6": {
+      "code": "6.6",
+      "name": "Подземный пешеходный переход",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.7": {
+      "code": "6.7",
+      "name": "Надземный пешеходный переход",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.8": {
+      "code": "6.8",
+      "name": "Тупик",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.9": {
+      "code": "6.9",
+      "name": "Предварительный указатель направления",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.10": {
+      "code": "6.10",
+      "name": "Указатель направления",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.11": {
+      "code": "6.11",
+      "name": "Указание расстояния до объекта",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.12": {
+      "code": "6.12",
+      "name": "Указатель расстояния",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.13": {
+      "code": "6.13",
+      "name": "Километровый знак",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.14": {
+      "code": "6.14",
+      "name": "Номер маршрута",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.15": {
+      "code": "6.15",
+      "name": "Направление движения для грузовых авт.",
+      "category": "informational",
+      "questionIds": []
+    },
+    "6.16": {
+      "code": "6.16",
+      "name": "Общие ограничения скорости",
+      "category": "informational",
+      "questionIds": []
+    }
+  }
+}
